@@ -1,28 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Paige E. Martin - UX/UI and Interaction Designer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome style sheet -->
+   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!--fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet' type='text/css'>
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/responsive-nav.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <h1>Paige Martin</h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- navigation bar -->
+<div class="fixed">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1>Paige Martin</h1>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+            <li><a target="_blank" href="http://linkedin.com/in/paigeemartin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+
+    </section>
+  </nav>
+</div>
+
+
+      <div class="hero">
+        <center>
+          <div class="header"></div>
+        </center>
+      </div>
+
+
+
+    <section id="about">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="banner">
+              <h1>Bringing handmade to web design</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="banner">
+          <div class="aboutpic">
+            <img align="left" src="img/headshot_small.jpg">
+          </div>
+              <h2>Hi, I'm Paige.</h2><br><br>I have always been a visual artist, but I am now bringing my experience with physical objects to web design. Most of my work involves 3-dimensional books that are meant to be interacted with, and they always include goofy monsters and robots. I think someone should always enjoy their engagement with a product, whether that is a hand-bound book or a web app. <br><br>
+
+              My background also includes linguistics, teaching, and copy writing/editing. Text, images, and form should come together to create an intuitive and enjoyable subconscious learning experience.<br><br>
+
+              The image above shows my essential bookbinding tools, which I took for a special blog post. If you would like to see more of my bookbinding and fine art, please visit <a target="_blank" href="http://paigespaper.com">Paige's Paper</a>.
+
+            </p>
+            
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="portfolio">
+    <h1>Portfolio</h1>
+    <div class="row">
+      <div class="large-12 medium-12 small-12 columns">
+        <div class="block1">
+          
+        </div>
+      </div>
+    </div>
+ 
+    <div class="row">
+      <div class="large-12 medium-12 small-12 columns">
+        <div class="block2">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 medium-12 small-12 columns">
+        <div class="block3">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 medium-12 small-12 columns">
+        <div class="block4">
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
