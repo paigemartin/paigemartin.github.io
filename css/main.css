@@ -164,7 +164,7 @@ p {
 	margin: 25px 0 0 0;
 	background: url(../img/Reddit_redesign_thumb.jpg) center no-repeat;
 	height: 250px;
-	display: block;
+	display: table;
 	width: 100%;
 }
 
@@ -172,15 +172,16 @@ p {
 	margin: 25px 0 0 0;
 	background: url(../img/Level_ground_thumb.jpg) center no-repeat;
 	height: 250px;
-	display: block;
+	display: table;
 	width: 100%;
+
 }
 
 .block3 {	
 	margin: 25px 0 0 0;
 	background: url(../img/restaurant-thumbnail.jpg) center no-repeat;
 	height: 250px;
-	display: block;
+	display: table;
 	width: 100%;
 }
 
@@ -188,7 +189,7 @@ p {
 	margin: 25px 0 0 0;
 	background: url(https://placehold.it/300x100) center no-repeat;
 	height: 250px;
-	display: block;
+	display: table;
 	width: 100%;
 }
 
@@ -197,33 +198,35 @@ p {
   position: relative;
   height: 250px;
   width: 250px;
+  -webkit-transition: visibility opacity 0.2s;
+  
 }
 
-.imgDescription {
-  position: absolute;
+.imgWrap .imgDescription {
+  /*position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  margin-bottom: 0;*/
   background: #565e67;
   color: #fff;
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
 
-
-  visibility: hidden;
-  opacity: .4;
-  transition: all 1s ease;
-
-  /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
 }
 
 
-.imgWrap:hover .imgDescription {
-  visibility: visible;
+.imgWrap .imgDescription:hover {
   opacity: 1;
+
 }
 
 /*MEDIA QUERIES*/
