@@ -133,6 +133,18 @@ p {
 	height: 100vh;
 	padding-top: 100px;
 }
+.portfolio-item {
+	text-align: left;
+	padding-top: 30px;
+}
+
+.portfolio-item .h3 {
+	text-align: left;
+}
+
+.portfolio-item img {
+	padding-top: 15px;
+}
 
 #portfolio .img {
 	height: 450;
