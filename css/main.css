@@ -134,9 +134,13 @@ p {
 	padding-top: 100px;
 }
 
+#portfolio .img {
+	height: 450;
+}
+
 .block1 {	
-	/*margin: 25px 0 0 0;*/
-	background-color:#CFD8DC;
+	margin: 25px 0 0 0;
+	background: url(../img/Reddit_redesign_thumb.jpg) center no-repeat;
 	height: 250px;
 	display: block;
 	width: 100%;
@@ -144,7 +148,7 @@ p {
 
 .block2 {	
 	margin: 25px 0 0 0;
-	background: url(../img/Front_Page.jpg) center;
+	background: url(../img/Level_ground_thumb.jpg) center no-repeat;
 	height: 250px;
 	display: block;
 	width: 100%;
@@ -152,7 +156,7 @@ p {
 
 .block3 {	
 	margin: 25px 0 0 0;
-	background: url(http://placehold.it/300x100) center;
+	background: url(http://placehold.it/300x100) center no-repeat;
 	height: 250px;
 	display: block;
 	width: 100%;
@@ -160,12 +164,44 @@ p {
 
 .block4 {	
 	margin: 25px 0 0 0;
-	background: url(https://placehold.it/300x100) center;
+	background: url(https://placehold.it/300x100) center no-repeat;
 	height: 250px;
 	display: block;
 	width: 100%;
 }
 
+/*Hover text on portfolio*/
+.imgWrap {
+  position: relative;
+  height: 250px;
+  /*width: 257px;*/
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #565e67;
+  color: #fff;
+  text-align: center;
+
+
+
+  visibility: hidden;
+  opacity: .4;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width:640px) {
@@ -173,14 +209,19 @@ p {
 		background: url(../img/organized-neatly-small.jpg) center no-repeat;
 	}
 
-	.block1,
+	/*.block1,
 	.block2,
 	.block3, 
 	.block4 {	
 	background: url(https://placehold.it/320x100) center;
 	height: 250px;
-	}
+	}*/
 
+.imgWrap {
+  position: relative;
+  height: 250px;
+  /*width: 257px;*/
+}
 	.aboutpic img{
 		width:200px;
 	}
