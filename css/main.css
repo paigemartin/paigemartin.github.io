@@ -197,7 +197,6 @@ p {
   position: relative;
   height: 250px;
   width: 250px;
-  transition: all 1s ease;
 }
 
 .imgDescription {
@@ -214,6 +213,7 @@ p {
 
   visibility: hidden;
   opacity: .4;
+  transition: all 1s ease;
 
   /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
