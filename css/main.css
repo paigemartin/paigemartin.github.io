@@ -156,9 +156,9 @@ p {
 	padding-bottom: 25px;
 }
 
-#portfolio .img {
+/*#portfolio .img {
 	height: 450;
-}
+}*/
 
 .block1 {	
 	margin: 25px 0 0 0;
@@ -186,6 +186,38 @@ p {
 }
 
 .block4 {	
+	margin: 25px 0 0 0;
+	background: url(https://placehold.it/300x100) center;
+	height: 250px;
+	display: table;
+	width: 100%;
+}
+
+.block5 {	
+	margin: 25px 0 0 0;
+	background: url(https://placehold.it/300x100) center;
+	height: 250px;
+	display: table;
+	width: 100%;
+}
+
+.block6 {	
+	margin: 25px 0 0 0;
+	background: url(https://placehold.it/300x100) center;
+	height: 250px;
+	display: table;
+	width: 100%;
+}
+
+.block7 {	
+	margin: 25px 0 0 0;
+	background: url(https://placehold.it/300x100) center;
+	height: 250px;
+	display: table;
+	width: 100%;
+}
+
+.block8 {	
 	margin: 25px 0 0 0;
 	background: url(https://placehold.it/300x100) center;
 	height: 250px;
